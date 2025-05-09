@@ -1,12 +1,20 @@
 {
   "name": "ts-lib-starter",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "packageManager": "pnpm@10.10.0",
-  "description": "",
+  "description": "Typescript library",
+  "type": "module",
   "keywords": [],
-  "license": "ISC",
-  "author": "",
-  "main": "index.js",
+  "license": "MIT",
+  "author": "CodeMan62 <sharmahimanshu15082007@gmail.com>",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "homepage": "https://github.com/CodeMan62/ts-lib-starter",
   "scripts": {
     "test": "vitest",
     "build": "tsdown",
