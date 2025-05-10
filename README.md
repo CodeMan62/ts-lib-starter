@@ -1,1 +1,1 @@
-# Typescript library startup
+# Typescript library starter
